@@ -1,0 +1,136 @@
+/* Start Display */
+.d-flex{
+    display: flex;
+}
+.d-grid{
+    display: grid;
+}
+.d-block{
+    display: block;
+}
+.gap-20{
+    gap: 20px;
+}
+.a-c{
+    align-items: center;
+}
+/* End Display */
+/* Start Component */
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-shape{
+    background-color: white;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    display: inline-block;
+    transition: var(--main-transition);
+}
+/* End Component */
+/* Start Padding + Margin */
+.p-15{
+    padding: 15px;
+}
+.m-0{
+    margin: 0;
+}
+.m-20{
+    margin: 20px;
+}
+.m-20-0{
+    margin: 20px 0;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+/* End Padding + Margin  */
+/* Start border */
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.txt-c{
+    text-align: center;
+}
+/* End border */
+/* Start Color */
+.c-white{
+    color: white;
+}
+.c-orange{
+    color: #d8bf36;
+}
+.c-grey{
+    color: #888;
+}
+.bg-orange{
+    background-color: #d8bf36;
+}
+.bg-white{
+    background-color: white;
+}
+/* End Color */
+/* Start Font */
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.fw-normal{
+    font-weight: normal;
+}
+.txt-upper{
+    text-transform: uppercase;
+}
+.l-height{
+    line-height: 1.8;
+}
+.f-width{
+    width: 100%;
+}
+.w-fit{
+    width: fit-content;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.rad-20{
+    border-radius: 20px;
+}
+/* End Font */
